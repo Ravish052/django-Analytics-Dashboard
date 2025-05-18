@@ -1,0 +1,17 @@
+{%extends "layouts/base.html" %}
+{% load static %}
+{% block content %}
+
+<div class = "m-3">
+    <h1 class = "my-3">Most Watched videos</h1>
+    <table id='datatable'>
+
+    </table>
+</div>
+
+
+{% endblock %}
+
+{% block scripts %}
+<script src="{% static 'assets/js/reports.js' %}"></script>
+{% endblock scripts %}
